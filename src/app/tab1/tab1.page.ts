@@ -8,5 +8,16 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+  ngOnInit(): void{
+    console.log("hello, welcome to world ionic")
+
+    let numero=20;
+    debugger;
+    numero=10;
+    numero=15;
+    numero=100;
+
+    console.log("LA variable esta tomando este valor: "+numero);
+  }
 
 }
